@@ -30,7 +30,7 @@ const Home: NextPage = () => {
               </p>
             </div>
            <div className='imageAndroid'>
-           <Link href="/" >
+           <Link href="https://play.google.com/store/apps/details?id=com.alertaassalto" >
            <a>
                   <Image src={android}/>
                 </a>
