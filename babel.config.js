@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ['next/babel', "styled-jsx/babel"],
+  presets: ['next/babel'],
   "plugins": [
     [
       "styled-components",
