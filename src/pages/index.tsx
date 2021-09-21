@@ -1,11 +1,12 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import Head from 'next/head'
 import { Container } from '../styles/home'
-import Image from 'next/image'
+
 import logo from '../image/logo.png'
 import android from '../image/android.png'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer/index'
 const Home: NextPage = () => {
 
   return (
