@@ -39,7 +39,7 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/favicon.ico" />
           <meta
             name="Description"
-            content="O objetivo do aplicativo ALERTA ASSALTO é o compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma. Tem como diferencial apontar em um mapa ilustrativo a localização de diferentes tipos de ocorrências relatadas pelas vítimas ou testemunhas, evidenciando os locais de mais incidências. É um aplicativo gratuito com informações compartilhadas por pessoas comuns que tem como preocupação a segurança e o bem-estar social."
+            content="Conversor de moeda e taxa de câmbio para dólar, euro, libra e outras 17 moedas. Atualização em tempo real ✓ Rápido e prático."
           ></meta>
 
           <script
