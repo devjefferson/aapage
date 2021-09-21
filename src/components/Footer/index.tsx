@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
         <div className="imagesocial">
           <Link href="https://www.facebook.com/alertaassalto" >
             <a >
-              <Image src={facebook} />
+              <Image src={facebook} alt="facebook" />
             </a>
           </Link>
         </div>
@@ -28,21 +28,21 @@ const Footer: React.FC = () => {
         <div className="imagesocial">
           <Link href="/" >
             <a>
-              <Image className="imagesocial" src={instagram} />
+              <Image className="imagesocial" src={instagram} alt="instagram" />
             </a>
           </Link>
         </div>
         <div className="imagesocial">
           <Link href="https://twitter.com/alertaassalto" >
             <a>
-              <Image className="imagesocial" src={twitter} />
+              <Image className="imagesocial" src={twitter} alt="twitter" />
             </a>
           </Link>
         </div>
         <div className="imagesocial">
           <Link href="/" >
             <a>
-              <Image className="imagesocial" src={linkedin} />
+              <Image className="imagesocial" src={linkedin} alt="linkedin" />
             </a>
           </Link>
         </div>

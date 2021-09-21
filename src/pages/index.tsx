@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <main>
         <div className="content">
           <div className="contentLeft">
-             <Image src={logo} className="imageLogo" />
+             <Image src={logo} className="imageLogo" alt="logo" />
           </div>
           <div className="contentRight">
             <div>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
            <div className='imageAndroid'>
            <Link href="https://play.google.com/store/apps/details?id=com.alertaassalto" >
            <a>
-                  <Image src={android}/>
+                  <Image src={android} alt="android-button"/>
                 </a>
             </Link>
            </div>
