@@ -6,7 +6,7 @@ import { Container } from '../styles/home'
 
 import logo from '../image/logo.png'
 import android from '../image/android.png'
-import Footer from '../components/Footer/index'
+import Footer from '../components/Footer'
 const Home: NextPage = () => {
 
   return (
