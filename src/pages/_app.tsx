@@ -1,3 +1,4 @@
+import '../styles/styles.css'
 import type { AppProps } from 'next/app'
 import GlobalStyle from '../styles/global'
 import { useRouter } from 'next/dist/client/router';
