@@ -5,6 +5,7 @@ import { Container } from '../styles/home'
 import Image from 'next/image'
 import logo from '../image/logo.png'
 import android from '../image/android.png'
+import Footer from '../components/Footer'
 const Home: NextPage = () => {
 
   return (
@@ -40,9 +41,10 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer>
-
-      </footer>
+      <div className="footercontainer"> 
+        <Footer/>
+      </div>
+     
     </Container>
   )
 }

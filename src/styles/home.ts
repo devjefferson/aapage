@@ -46,14 +46,15 @@ export const Container = styled.div`
     }
    
   }
-  footer{
-      height: 4rem;
+  .footercontainer{
+      display: flex;
+      align-items: center;
+      //justify-content: center;
+      height: 6rem;
       width: 100vw;
       bottom: 0;
       background: var(--color-segundary);
       position:fixed;
-      
-    
     }
 
     @media (min-width: 700px){
@@ -82,6 +83,8 @@ export const Container = styled.div`
           }
         }
       }
-     
+      .footercontainer{
+        height: 9rem;
+      }
     }
 `;
