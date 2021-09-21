@@ -21,9 +21,10 @@ class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <meta property="og:locale" content="en_US" />
+          <meta property="og:locale" content="pt-BR" />
           <meta property="og:site_name" content="Alerta Assalto" />
           <meta name="theme-color" content="#000000" />
+          <link rel="shortcut icon" href="/favicon.ico" />
           <title>Alerta Assalto</title>
         </Head>
         <body >
