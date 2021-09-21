@@ -31,7 +31,7 @@ class MyDocument extends Document {
 
   render(): JSX.Element {
     return (
-      <html>
+      <html lang='pt-BR'>
         <Head>
           <meta property="og:locale" content="pt-BR" />
           <meta property="og:site_name" content="Alerta Assalto" />

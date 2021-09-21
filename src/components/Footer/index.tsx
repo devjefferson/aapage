@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
   return (
     <Container>
       <div>
-        <h4>Copyright © Alerta Assalto 2021</h4>
-        <h5>Política de privacidade</h5>
+        <h3>Copyright © Alerta Assalto 2021</h3>
+        <h4>Política de privacidade</h4>
       </div>
 
       <div className="containersocial">
