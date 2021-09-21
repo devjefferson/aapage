@@ -1,4 +1,3 @@
-// @ts-ignore  
 export const GA_TRACKING_ID = "G-WT5ZHZKW59";
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages

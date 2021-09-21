@@ -14,7 +14,6 @@
     "@babel/plugin-syntax-jsx": "^7.14.5",
     "@zeit/next-css": "^1.0.1",
     "babel-plugin-styled-components": "^1.13.2",
-    "gtag": "^1.0.1",
     "next": "11.1.2",
     "postcss": "^8.3.6",
     "postcss-flexbugs-fixes": "^5.0.2",
