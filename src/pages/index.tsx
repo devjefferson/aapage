@@ -17,6 +17,8 @@ const Home: NextPage = () => {
             name="description"
             content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
           ></meta>
+          <meta name="keywords" content="aplicativo, assalto, furtos, arrastão, ocorrências, violencias, segurança"/>
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
