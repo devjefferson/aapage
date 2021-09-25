@@ -1,5 +1,5 @@
 import React from 'react'
-import Document, { DocumentContext, DocumentInitialProps, Head, Main, NextScript } from 'next/document'
+import Document, { DocumentContext, DocumentInitialProps, Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import { GA_TRACKING_ID } from '../lib/gtag'
 
@@ -31,10 +31,11 @@ class MyDocument extends Document {
 
   render(): JSX.Element {
     return (
-      <html  lang='pt-BR'>
+
+      <Html  lang='pt-BR'>
         <Head>
           
-          <meta property="og:locale" content="pt-BR" />
+          <meta http-equiv="Content-Language" content="pt-br"/>
           <meta charSet="utf-8" />
           <meta property="og:site_name" content="Alerta Assalto" />
           <meta name="theme-color" content="#000000" />
@@ -67,7 +68,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     )
   }
 }
