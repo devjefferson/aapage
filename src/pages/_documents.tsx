@@ -31,20 +31,22 @@ class MyDocument extends Document {
 
   render(): JSX.Element {
     return (
-      <html lang='pt-BR'>
+      <html  lang='pt-BR'>
         <Head>
+          
           <meta property="og:locale" content="pt-BR" />
+          <meta charSet="utf-8" />
           <meta property="og:site_name" content="Alerta Assalto" />
           <meta name="theme-color" content="#000000" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <meta
-            name="Description"
-            content="Conversor de moeda e taxa de câmbio para dólar, euro, libra e outras 17 moedas. Atualização em tempo real ✓ Rápido e prático."
+            name="description"
+            content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
           ></meta>
 
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-WT5ZHZKW59`}
           />
           <script
             // eslint-disable-next-line react/no-danger
@@ -53,7 +55,7 @@ class MyDocument extends Document {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
+            gtag('config', 'G-WT5ZHZKW59', {
               page_path: window.location.pathname,
             });
           `
