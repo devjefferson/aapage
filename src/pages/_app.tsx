@@ -7,8 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
   <>
-    <Head>
-    <meta charSet="utf-8" />        
+    <Head> 
     <script dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -20,6 +19,8 @@ function MyApp({ Component, pageProps }: AppProps) {
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-WT5ZHZKW59`}
           />
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7185818297801314"
+     crossOrigin="anonymous"></script>
           
           <script
             // eslint-disable-next-line react/no-danger
