@@ -11,18 +11,8 @@ const Home: NextPage = () => {
 
   return (
     <Container >
-      <Head>
-        <title>Alerta Assalto</title>
-        <meta
-            name="description"
-            content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
-          ></meta>
-          <meta name="keywords" content="aplicativo, assalto, furtos, arrastão, ocorrências, violencias, segurança"/>
 
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <body>
+      <main>
         <div className="content">
           <div className="contentLeft">
              <Image src={logo} className="imageLogo" alt="logo" />
@@ -45,7 +35,7 @@ const Home: NextPage = () => {
            </div>
           </div>
         </div>
-      </body>
+      </main>
 
       <div className="footercontainer"> 
         <Footer/>
