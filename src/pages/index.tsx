@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
-import Head from 'next/head'
 import { Container } from '../styles/home'
 
 import logo from '../image/logo.png'
@@ -34,6 +33,7 @@ const Home: NextPage = () => {
             </Link>
            </div>
           </div>
+
         </div>
       </main>
 
