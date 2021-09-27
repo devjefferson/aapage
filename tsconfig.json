@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
     "target": "es5",
     "lib": [
       "dom",
@@ -19,6 +21,9 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
+  "types": [
+    "@types/gtag.js"
+  ],
   "include": [
     "next-env.d.ts",
     "pages/**/*",
