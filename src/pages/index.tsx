@@ -6,10 +6,18 @@ import { Container } from '../styles/home'
 import logo from '../image/logo.png'
 import android from '../image/android.png'
 import Footer from '../components/Footer'
+import { Head } from 'next/document'
 const Home: NextPage = () => {
 
   return (
     <Container >
+      <Head>
+          <title>Alerta Assalto</title>          
+          <meta
+            name="description"
+            content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
+          ></meta>
+      </Head>
       <main>
         <div className="content">
           <div className="contentLeft">
