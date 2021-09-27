@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <body>
         <div className="content">
           <div className="contentLeft">
              <Image src={logo} className="imageLogo" alt="logo" />
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
            </div>
           </div>
         </div>
-      </main>
+      </body>
 
       <div className="footercontainer"> 
         <Footer/>
