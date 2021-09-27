@@ -30,9 +30,9 @@ class MyDocument extends Document {
   render(): JSX.Element {
     return (
 
-      <Html lang='pt-br'>
+      <Html lang='pt'>
         <Head>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta charSet="utf-8" />  
         </Head>
         <body>
           <Main />

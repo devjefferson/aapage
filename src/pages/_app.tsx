@@ -2,13 +2,13 @@ import '../styles/styles.css'
 import type { AppProps } from 'next/app'
 import GlobalStyle from '../styles/global'
 import Head from 'next/head'
-import { useRouter } from 'next/dist/client/router'
-import { useEffect } from 'react'
+
 function MyApp({ Component, pageProps }: AppProps) {
 
   return (
   <>
-    <Head>      
+    <Head>
+    <meta charSet="utf-8" />        
     <script dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -35,6 +35,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             }}
           />
     </Head>
+    <noscript dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDS48FL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+          }}
+          />
     <GlobalStyle />
     <Component {...pageProps} />
   </>

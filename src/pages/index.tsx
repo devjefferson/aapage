@@ -6,16 +6,14 @@ import { Container } from '../styles/home'
 import logo from '../image/logo.png'
 import android from '../image/android.png'
 import Footer from '../components/Footer'
-import { Head } from 'next/document'
+import Head from 'next/head'
 const Home: NextPage = () => {
 
   return (
     <Container >
-      <Head>
+       <Head>
         <title>Alerta Assalto</title>
-        <meta charSet="utf-8" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="keywords" content="aplicativo, assalto, furtos, arrastão, ocorrências, violencias, segurança" />
         <meta
           name="description"
           content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
