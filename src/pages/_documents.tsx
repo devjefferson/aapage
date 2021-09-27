@@ -37,6 +37,7 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <title>Alerta Assalto</title>
+          
           <meta
             name="description"
             content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
@@ -54,6 +55,7 @@ class MyDocument extends Document {
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-WT5ZHZKW59`}
           />
+          
           <script
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
