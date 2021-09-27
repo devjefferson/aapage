@@ -31,7 +31,9 @@ class MyDocument extends Document {
     return (
 
       <Html lang='pt-br'>
-        <Head></Head>
+        <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        </Head>
         <body>
           <Main />
           <NextScript />

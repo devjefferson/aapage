@@ -2,8 +2,9 @@ import '../styles/styles.css'
 import type { AppProps } from 'next/app'
 import GlobalStyle from '../styles/global'
 import Head from 'next/head'
+import { useRouter } from 'next/dist/client/router'
+import { useEffect } from 'react'
 function MyApp({ Component, pageProps }: AppProps) {
-
 
   return (
   <>
