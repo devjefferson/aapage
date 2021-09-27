@@ -10,7 +10,6 @@ const Home: NextPage = () => {
 
   return (
     <Container >
-
       <main>
         <div className="content">
           <div className="contentLeft">
