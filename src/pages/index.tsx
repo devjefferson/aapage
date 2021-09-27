@@ -12,16 +12,25 @@ const Home: NextPage = () => {
   return (
     <Container >
       <Head>
-          <title>Alerta Assalto</title>          
-          <meta
-            name="description"
-            content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
-          ></meta>
+        <title>Alerta Assalto</title>
+        <meta charSet="utf-8" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="keywords" content="aplicativo, assalto, furtos, arrastão, ocorrências, violencias, segurança" />
+        <meta
+          name="description"
+          content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
+        />
+        <meta name="keywords" content="aplicativo, assalto, furtos, arrastão, ocorrências, violencias, segurança" />
       </Head>
       <main>
+      <noscript dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDS48FL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+          }}
+          />
         <div className="content">
           <div className="contentLeft">
-             <Image src={logo} className="imageLogo" alt="logo" />
+            <Image src={logo} className="imageLogo" alt="logo" />
           </div>
           <div className="contentRight">
             <div>
@@ -29,25 +38,25 @@ const Home: NextPage = () => {
             </div>
             <div>
               <p>
-              O objetivo do aplicativo ALERTA ASSALTO é o compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma. Tem como diferencial apontar em um mapa ilustrativo a localização de diferentes tipos de ocorrências relatadas pelas vítimas ou testemunhas, evidenciando os locais de mais incidências. É um aplicativo gratuito com informações compartilhadas por pessoas comuns que tem como preocupação a segurança e o bem-estar social.  
+                O objetivo do aplicativo ALERTA ASSALTO é o compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma. Tem como diferencial apontar em um mapa ilustrativo a localização de diferentes tipos de ocorrências relatadas pelas vítimas ou testemunhas, evidenciando os locais de mais incidências. É um aplicativo gratuito com informações compartilhadas por pessoas comuns que tem como preocupação a segurança e o bem-estar social.
               </p>
             </div>
-           <div className='imageAndroid'>
-           <Link href="https://play.google.com/store/apps/details?id=com.alertaassalto" >
-           <a>
-                  <Image src={android} alt="android-button"/>
+            <div className='imageAndroid'>
+              <Link href="https://play.google.com/store/apps/details?id=com.alertaassalto" >
+                <a>
+                  <Image src={android} alt="android-button" />
                 </a>
-            </Link>
-           </div>
+              </Link>
+            </div>
           </div>
 
         </div>
       </main>
 
-      <div className="footercontainer"> 
-        <Footer/>
+      <div className="footercontainer">
+        <Footer />
       </div>
-     
+
     </Container>
   )
 }
