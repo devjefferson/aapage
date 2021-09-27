@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           name="description"
           content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
         />
-        <meta name="keywords" content="aplicativo, assalto, furtos, arrastão, ocorrências, violencias, segurança" />
+        <meta name="keywords" content='"aplicativo de ocorrência", "alerta assalto rio de janeiro", "alerta assalto RJ", "aplicativo de segurança", [alerta assalto, furto, roubo], "pais seguro", alerta assalto' />
       </Head>
       <main>
       <noscript dangerouslySetInnerHTML={{
