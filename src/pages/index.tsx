@@ -12,8 +12,11 @@ const Home: NextPage = () => {
   return (
     <Container >
        <Head>
+         
         <title>Alerta Assalto</title>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7185818297801314"
+     crossOrigin="anonymous"></script>
         <meta
           name="description"
           content="compartilhamento de ocorrências e tentativas de assaltos e furtos nas regiões próximas aos usuários da nossa plataforma."
